@@ -27,7 +27,7 @@ For example to get x_ladon,x_gorgon,x_argus,x_cylons
         8404e03220003523b7c16d6cea06cece05f6e6c9d178d376f661
         True
 
-#### REQUEST headers [Example one For Android](demo/Android/args.py)
+#### REQUEST headers [Example one For Android latest version](demo/Android/args.py)
 
         headers = {
             # 'Host': 'api26-core-lq.amemv.com',
@@ -106,7 +106,8 @@ in [this](demo/iOS/bean/device_info.py)
         Support iOS | Android | Web
         Python 3.9.7
         PyCharm 2022.2.1
-        app_version = '22.0.0'
+        China_Android_app_version = '23.2.0'
+        China_iOS_app_version = '22.0.0'
 
 ## Tip
 
