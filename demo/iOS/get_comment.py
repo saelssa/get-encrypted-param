@@ -5,8 +5,8 @@ from urllib.parse import urlencode, quote
 
 import requests
 
-from demo.api.api import XLadon, XGorgon, XArgus
-from demo.bean.device_info import DeviceApp
+from demo.iOS.api.api import XLadon, XGorgon, XArgus
+from demo.iOS.bean.device_info import DeviceApp
 
 
 class TestCommon:

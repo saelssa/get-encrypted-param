@@ -7,13 +7,13 @@ from typing import Any
 
 import requests
 
-from demo.bean.protobuf import ProtoBuf
-from demo.api.hash import dp_hash
+from demo.iOS.bean.protobuf import ProtoBuf
+from demo.iOS.api.hash import dp_hash
 
 
 class Api:
-    URL = "http://27.50.54.23/result"
-    TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJ0aWFsaSIsInBsYXQiOiJ3ZWFhMTIiLCJleHAiOjE2Njk0Mjc0OTUsInVzZXJuYW1lIjoidGlhbGkifQ.PzqR45pew9j4PNSf_WD9Z27pm2L06T03IxiejkRHo_8"
+    URL = "http://i.argso.vip/result"
+    TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJnc3N3dyIsInBsYXQiOiJ3ZWFhMTIiLCJleHAiOjE3MDExODAzMTQsInVzZXJuYW1lIjoiZ3Nzd3cifQ.4n3jZeCUEkkSsjTNO_DBK1DbIVunpMzVhRLpiavvGP0"
 
     # You need to replace your own region ID
     appId = 1128  # appId 1180-American 1233-European

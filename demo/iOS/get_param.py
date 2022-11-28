@@ -1,4 +1,4 @@
-from demo.api.api import XLadon, XGorgon, XArgus, XCylons
+from demo.iOS.api.api import XLadon, XGorgon, XArgus, XCylons
 
 
 class Helper:
