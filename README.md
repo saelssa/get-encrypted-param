@@ -111,6 +111,5 @@ in [this](demo/iOS/bean/device_info.py)
 
 ## Tip
 
-This project only tests and verifies the research related to algorithms, and it is the old version used. I hope it will
-not cause problems. Welcome to discuss with each other!
+[Contact](https://t.me/samael27)
 
