@@ -1,14 +1,14 @@
-# Get-Encrypted-Param | [获取算法参数](README-zh.md)
+# Get-Encrypted-Param
 
-This is an example of getting 抖音/TikTok encryption algorithm parameters
+这是一个获取 抖音/TikTok 算法参数的例子
 
-Support iOS | Android | Web
+支持 iOS | Android | Web
 
-For example to get x_ladon,x_gorgon,x_argus,x_cylons
+获取各参数： x_ladon,x_gorgon,x_argus,x_cylons 的示例
 
-## Running the tests
+## 示例
 
-#### REQUEST - [Example one For iOS](demo/iOS/get_param.py)
+#### 请求 - [iOS示例](demo/iOS/get_param.py)
 
         @staticmethod
         def get_x_ladon():
@@ -21,13 +21,13 @@ For example to get x_ladon,x_gorgon,x_argus,x_cylons
             param3 = XLadon.decrypt(param2)
             print(param3 == param1)
 
-#### RESULT
+#### 结果
 
         96edab6bc5bf2fbc0000000021080304621d7727
         8404e03220003523b7c16d6cea06cece05f6e6c9d178d376f661
         True
 
-#### REQUEST headers [Example one For Android latest version](demo/Android/args.py)
+#### 请求的headers [Android示例 支持最新版](demo/Android/args.py)
 
         headers = {
             # 'Host': 'api26-core-lq.amemv.com',
@@ -47,7 +47,7 @@ For example to get x_ladon,x_gorgon,x_argus,x_cylons
             'x-tyhon': encrypt_res.get('X-Tyhon'),
         }
 
-#### RESULT
+#### 结果
 
         {
             'X-Ladon': 'GjVnM5oGh07q8+r1zyFSvBBSdm6CsSfatvZkVGBgFjTKocce', 
@@ -57,9 +57,9 @@ For example to get x_ladon,x_gorgon,x_argus,x_cylons
             'X-Tyhon': 'wDr8Tj55shx6Y/xOcXiuCms2/AFwZLgbPjb8Pto='
         }
 
-#### REQUEST headers [Example one For Web](demo/web/get_web_comment.py)
+#### 请求的headers [Web示例](demo/web/get_web_comment.py)
 
-##### Need to replace your own cookie
+##### 需要替换你的cookie
 
         headers = {
             'Host': 'www.douyin.com',
@@ -78,7 +78,7 @@ For example to get x_ladon,x_gorgon,x_argus,x_cylons
             'accept-language': 'zh-CN,zh;q=0.9'
         }
 
-#### RESULT  a part
+#### 部分结果
 
             'aweme_id': '7158666747749338382','can_share': True, 
             'cid': '7158668053982561054', 'create_time': 1666757299, 
@@ -98,18 +98,17 @@ For example to get x_ladon,x_gorgon,x_argus,x_cylons
                 'width': 720
             }
 
-## Environment requirements
+## 运行环境
 
-Test with China version,To test the American version or the European version,you need to replace the data
-in [this](demo/iOS/bean/device_info.py)
+使用的某音来测试的,如果需要美版或者欧版[你需要替换自己的参数](demo/iOS/bean/device_info.py)
 
-        Support iOS | Android | Web
+        支持 iOS | Android | Web
         Python 3.9.7
         PyCharm 2022.2.1
-        China_Android_app_version = '23.2.0'
-        China_iOS_app_version = '22.0.0'
+        Android_app_version = '23.2.0'
+        iOS_app_version = '22.0.0'
 
-## Tip
+## 注意
 
-[Contact](https://t.me/samael27)
+[联系方式](https://t.me/samael27)
 
