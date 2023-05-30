@@ -5,16 +5,22 @@ import requests
 
 class ArgsApi:
 
-    url = "http://demo.argso.vip/api/encrypt"
+    url = "http://a.argso.vip/api/dy/encrypt"
 
     @classmethod
     def send(cls, u):
         payload = {
-            "url": u
+            "url": u,
+            "headers": {
+                "Cookie": "install_id=3285777376617822;",
+                "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+                "passport-sdk-version": "20352",
+                "x-ss-req-ticket": "1667204506545",
+            },
         }
         headers = {
             'Content-Type': 'application/json;charset=UTF-8',
-            "x-token": "MBDgTYJi$3zVc0L!"
+            "x-token": "MDdhY2RkOWUtZGQxYS1jM2ZiLTY3YTYtYzU4NjE1YjgzYTJi"
         }
         response = requests.post(cls.url, json=payload, headers=headers)
         if response.status_code != 200:
