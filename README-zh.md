@@ -50,11 +50,20 @@
 #### 结果
 
         {
-            'X-Ladon': 'GjVnM5oGh07q8+r1zyFSvBBSdm6CsSfatvZkVGBgFjTKocce', 
-            'X-Khronos': '1669644559', 
-            'X-Argus': '2OVfa6g340YqI8N32Lrx8bn7boeqGmNpZHG24JtPbUFjfAYzOxI7vvuCUOEAe2UIALIP0BBHKhggZ92BzXwl56RceKLBqSowkEFwGpfHzpiJ/fDDJ+KcjgaezyUf9rDFTrKfccgsNHgfc1TK3KxV7ZJUoARag6Gk7qc7cKyyDYT4CvweecGkNL+mbKpXnA4QyT8c0FDy8bg9GnFZny7BjT4mMAynvD0WpoTRIPB74QzrOA==', 
-            'X-Gorgon': '0404c0f20890010ef978d9b83ac6d3c165d6b8cb3c28e37d0c2f', 
-            'X-Tyhon': 'wDr8Tj55shx6Y/xOcXiuCms2/AFwZLgbPjb8Pto='
+            'X-Ladon': 'TtmkL4wbNax5Od4VPkm5bMldehLgB2/4wJ9JYqwl+34mklcw', 
+            'X-Khronos': '1685409367', 
+            'X-Argus': 'srLZ2m847KeIcuTWNCcUUcUo38etc/s99Eo2C8RJe7F+s13iaCDLDrNf+c8Xgntc9+ZsOIaeX+Aho3
+                        /I8gXTCDcnWgcfMJW//1VDPTJWvx6FAW/ndCPNv8f+qqbns96WoF31Or1AKTU4MHB9JOXbPKMZacYlGlsceGokdDbDu
+                        YTnR3Fn38WHEPg8eygVwbHt8Fy9DSKS80z587A//x/nXbRusGmzh8E6wgGhxaQACitNWrEIqcrNw48EE/38Dn7H+oM=', 
+            'X-Gorgon': '840480f60000ffe38555ef116d192387ed21f5b04e675024cf1f', 
+            'X-Helios': 'x3jqCQ+G1zHhjMzsPePpAJwCVlF/NtXWKM/ZJdZKP53IUI6d', 
+            'X-Medusa': 'VU51ZGEi4AhiPC//s5poAZ/2DEKOW+rBUyrZMSAGKtwuaF/x6
+                        5TpcNJlDKi8DIqa2uvl20+3JYqouSAmlbJmUoDmj7JdMRz8dnGFgy9p5/0F
+                        6HjRit1yJmD8N50e/idnCH92t7Pmg7hnTLtp9DBDuL4y02r84OxL2UL+lCrawkak
+                        w43ikmt0w4xwCxueyLXjAOPXKzz5cuY8KqRikQSjbOZA4J6ZqpAimp1zqcDIlI84
+                        bjyMY7IN1kSWA4g/r1+Zmz48VTVJkYi8FzLXP8FD/HdRVYN7e2RKTumQCwi4YeOM
+                        IXL3UtMj/Dh3toPhjkqmXFR3FEUQfbPrmUx8QpdOluERbAo/+yMnHIjPo
+                        81y82EYfL/2L46kA6oudKtN4qA1LwAmanDO'
         }
 
 #### 请求的headers [Web示例](demo/web/get_web_comment.py)
