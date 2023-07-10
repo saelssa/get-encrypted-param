@@ -5,7 +5,7 @@ import requests
 
 class ArgsApi:
 
-    url = "http://a.argso.vip/api/dy/encrypt"
+    url = "http://38.181.52.56:81/api/dy/encrypt"
 
     @classmethod
     def send(cls, u):
