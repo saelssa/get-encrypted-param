@@ -12,7 +12,7 @@ from demo.iOS.api.hash import dp_hash
 
 
 class Api:
-    URL = "http://i.argso.vip/result"
+    URL = "http://38.181.52.56:80/result"
     TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJnc3N3dyIsInBsYXQiOiJ3ZWFhMTIiLCJleHAiOjE3MDExODAzMTQsInVzZXJuYW1lIjoiZ3Nzd3cifQ.4n3jZeCUEkkSsjTNO_DBK1DbIVunpMzVhRLpiavvGP0"
 
     # You need to replace your own region ID
