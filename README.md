@@ -120,5 +120,5 @@ in [this](demo/iOS/bean/device_info.py)
 
 ## Tip
 
-[Contact](https://t.me/llllllllllliiiiiii1)
+[Contact](https://t.me/fullllliiiiii)
 
